@@ -53,7 +53,7 @@ public class MathServlet extends HttpServlet {
                         + "</div>");
             }
             out.println("<form>\n" +
-                "            <input type='number' step='0.1' name='n1' value='"+n1+"'/>+\n" +
+                "            <input type='number' step='0.1' name='n1' value='"+n1+"'/>\n" +
                 "            <select name=\"op\">\n" +
                 "                <option value=\"soma\" "+(op!=null&&op.equals("soma")?"selected":"")+">+</option>\n" +
                 "                <option value=\"sub\" "+(op!=null&&op.equals("sub")?"selected":"")+">-</option>\n" +
